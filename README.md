@@ -27,3 +27,10 @@ interior_point_algorithm.py
 -  analyses if demand > supply, demand < supply or demand = supply
 -  builds righthandside constraints b
 -  ensures proportional fairness
+
+#needed files
+- AssetListe.json
+- tradingCost_prosumers_to_all_households_nested.json
+- pairsAndReductions.json (this is only needed to analyze results. not the algorithm itself)
+
+This algorithm accepts household data which is structured like the API data
